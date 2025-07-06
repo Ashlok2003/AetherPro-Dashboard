@@ -6,12 +6,10 @@ import {
   IconChecklist,
   IconClipboard,
   IconClipboardCheck,
-  IconFileDescription,
   IconFileSearch,
   IconFileText,
   IconGradienter,
   IconHelp,
-  IconInnerShadowTop,
   IconNews,
   IconReport,
   IconSearch,
@@ -35,8 +33,8 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from '@/components/ui/sidebar';
-import { Separator } from '../ui/separator';
 import Image from 'next/image';
+import { Separator } from '../ui/separator';
 
 export const data = {
   user: {

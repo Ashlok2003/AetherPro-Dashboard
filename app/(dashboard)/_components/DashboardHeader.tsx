@@ -14,7 +14,7 @@ import {
 export default function DashboardHeader() {
   return (
     <motion.div
-      className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 rounded-none bg-teal-600 p-6 md:p-12 shadow dark:bg-teal-700"
+      className="flex flex-row items-center justify-between gap-4 rounded-none bg-teal-600 p-6 md:p-12 shadow dark:bg-teal-700"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}

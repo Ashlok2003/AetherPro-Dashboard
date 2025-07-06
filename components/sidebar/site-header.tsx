@@ -5,6 +5,7 @@ import { SidebarTrigger } from '@/components/ui/sidebar';
 import { ThemeToggle } from '@/hooks/use-theme';
 import { FaGithub } from 'react-icons/fa';
 import { NavigationMenu } from './navigation-menu';
+import Link from 'next/link';
 
 export function SiteHeader() {
   return (
@@ -24,7 +25,9 @@ export function SiteHeader() {
             size="icon"
             className="rounded-full"
           >
-            <FaGithub className="h-[1.2rem] w-[1.2rem]" />
+            <Link href="https://github.com/Ashlok2003/AetherPro-Dashboard">
+              <FaGithub className="h-[1.2rem] w-[1.2rem]" />
+            </Link>
           </Button>
           <UserDropdown
             email="chaudharyashlok@gmail.com"

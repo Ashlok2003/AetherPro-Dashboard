@@ -5,7 +5,7 @@ import { data } from '@/components/sidebar/app-sidebar';
 
 export default function DashboardGrid() {
   return (
-    <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 p-4">
+    <div className="grid gap-2 grid-cols-4 md:grid-cols-5 lg:grid-cols-6 p-4">
       {data.navMain.map((item, index) => (
         <motion.div
           key={item.title}
